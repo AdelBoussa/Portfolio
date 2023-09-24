@@ -6,7 +6,7 @@ function Resume() {
     <section id="resume" className="resume-section">
       <h2>Resume</h2>
       <div className="pdf-container">
-        <embed src="..\..\public\AdelBoussenaneResume.pdf" type="application/pdf" width="100%" height="1000px" />
+        <embed src="/AdelBoussenaneResume.pdf" type="application/pdf" width="100%" height="1000px" />
       </div>
     </section>
   );

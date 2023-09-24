@@ -6,7 +6,7 @@ import Skills from './pages/Skills';
 import Projects from './pages/Projects';
 import Title from './pages/Title';
 import './App.css' 
-import Resume from './pages/resume';
+import Resume from './pages/Resume';
 function App() {
   return (
     <div className="App">
