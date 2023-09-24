@@ -1,0 +1,78 @@
+/* */
+@import '..\node_modules\font-awesome\css\font-awesome.min.css';
+
+#root {
+  --white: #F0F8F0;
+  --black: #080809;
+  --red: #A23A07;
+  --blue: #5FAEDE;
+  --gold:#D0A356;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  color: var(--white);
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  overflow-x: hidden;
+}
+.App {
+  width: 100%;
+  height: 100%;
+  margin-top: 50px;
+}
+.section {
+  min-height: 100vh;
+  max-height: 100vh;
+  min-width: 100vw;
+  max-width: 100vw;
+  margin-top: 20px;
+}
+.wavy-text-container{
+  display: flex;
+  flex-direction: row;
+  
+  color: var(--gold);
+  position: absolute;
+  left: 0;
+  top: 235px;
+  white-space: nowrap;
+  
+  max-width: 100%;
+  
+}
+.icon-corner{
+  font-size: 2rem;
+  position: absolute;
+  right:2%;
+  transition: transform 0.5s ease;
+}
+.title-icon:hover{
+  transform: scale(1.2);
+}
+.title-section {
+  flex-grow: 1; /* Allow this section to grow and take up remaining space */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: var(--black);
+  background-color: var(--white);
+  height: 350px;
+}
+.skills-section{
+  
+
+}
+.projects-section{
+  
+}
+.contact-section{
+  color: var(--black);
+  background-color: var(--white);
+}
+

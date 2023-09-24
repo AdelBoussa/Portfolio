@@ -1,0 +1,124 @@
+#root{
+  --white: #F0F8F0;
+  --black: #080809;
+  --red: #A23A07;
+  --blue: #5FAEDE;
+  --gold:#D0A356;
+}
+.contact-title{
+  padding-top: 1px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    z-index: 100;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: var(--black);
+  }
+  
+  .contact-card {
+    border: 1px solid rgba(0, 0, 0, 0.301);
+    border-radius: 10px;
+    padding: 20px;
+    width: 80vw;
+    max-width: 390px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 10%;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    color: var(--black);
+  }
+  
+  .form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .group {
+    position: relative;
+  }
+  
+  .form .group label {
+    font-size: 14px;
+    color: var(--black);
+    position: absolute;
+    top: -10px;
+    left: 10px;
+    background-color: var(--white);
+    transition: all .3s ease;
+  }
+  
+  .form .group input,
+  .form .group textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    outline: 0;
+    width: 100%;
+    background-color: transparent;
+    color: var(--black);
+  }
+  
+  .form .group input:placeholder-shown+ label, .form .group textarea:placeholder-shown +label {
+    top: 10px;
+    background-color: transparent;
+  }
+  
+  .form .group input:focus,
+  .form .group textarea:focus {
+    border-color: var(--black);
+    
+  
+  }
+  
+  .form .group input:focus+ label, .form .group textarea:focus +label {
+    top: -10px;
+    left: 10px;
+    background-color: transparent;
+    color: var(--black);
+    font-weight: 600;
+    font-size: 14px;
+  }
+  
+  .form .group textarea {
+    resize: none;
+    height: 100px;
+  }
+  
+  .form button {
+    background-color: var(--black);
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .form button:hover {
+    background-color: var(--white);
+    color: var(--black);
+    border-style:solid;
+    border-color: var(--black);
+    border-width: 1px;
+  }
+  
+  
+  
+  

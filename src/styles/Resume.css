@@ -1,0 +1,14 @@
+.resume-section {
+    min-height: 100vh; /* Ensure the section takes up the full viewport height */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the content vertically */
+  }
+  
+  .pdf-container {
+    width: 100%;
+    height: 100%; /* Take up the full height of the parent (which is the viewport height) */
+    max-width: 800px; /* Adjust the max-width as needed */
+    margin: 0 auto;
+    position: relative;
+  }

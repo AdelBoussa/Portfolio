@@ -1,0 +1,45 @@
+#root{
+  --white: #F0F8F0;
+  --black: #080809;
+  --red: #A23A07;
+  --blue: #5FAEDE;
+  --gold:#D0A356;
+}
+nav {
+    position: fixed; /* Fixed position to keep it at the top */
+    top: 0; /* Position at the top of the viewport */
+    width: 100%; /* Full width */
+    height: 50px;
+    background-color: var(--black);
+    padding: 10px 0; 
+    z-index: 1; 
+    
+    
+  }
+  
+  /* Style the navigation links */
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center; /* Center the links horizontally */
+  }
+  
+  li {
+    margin: 0 10px; /* Adjust the margin as needed */
+  }
+  
+  a {
+    text-decoration: none;
+    color: white !important;
+    font-size: larger;
+    
+    
+  }
+  
+  a:hover {
+    text-decoration:underline wavy; 
+    color: rgba(255, 255, 255, 0.541) !important;
+  }
+  
