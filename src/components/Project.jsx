@@ -1,8 +1,8 @@
 import React from 'react';
 import '../styles/Project.css'
-import { BiLogoFigma, BiGitRepoForked,BiCog, BiLogoReact, BiLogoJavascript, BiSolidFileCss, BiLogoPython, BiLogoHtml5 } from 'react-icons/bi';
-import { SiVite, SiPowershell, SiAmazonaws} from 'react-icons/si';
-import {BsFileWordFill} from 'react-icons/bs';
+import { BiGitRepoForked, BiLogoReact, BiLogoJavascript, BiSolidFileCss, BiLogoHtml5 } from 'react-icons/bi';
+import { SiVite, SiAmazonaws} from 'react-icons/si';
+
 
 function Project() {
   

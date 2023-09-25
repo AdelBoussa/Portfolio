@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react';
-import Logo from '../components/Logo.jsx'; 
+import React from 'react';
+
 import '../App.css' 
 import { gsap } from "gsap";
 import { SiGreensock, SiVite} from 'react-icons/si';
