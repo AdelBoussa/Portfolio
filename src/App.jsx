@@ -5,8 +5,9 @@ import Contact from './pages/Contact';
 import Skills from './pages/Skills';
 import Projects from './pages/Projects';
 import Title from './pages/Title';
+import Resume from './pages/Resume';
 import './App.css' 
-import Resume from '.\pages\Resume.jsx';
+
 
 function App() {
   return (
